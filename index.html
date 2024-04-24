@@ -6,12 +6,15 @@
     <title>Redirect</title>
 </head>
 <body>
+    <button id="button"></button>
     <script>
         document.addEventListener("DOMContentLoaded", function(){
-            window.location.href = "/around-me-don-toliver/src/app.html";
+            document.getElementById("button").addEventListener("click", function(){
+                window.location.href = "/around-me-don-toliver/src/app.html";
+
+            }
+        )
         });
     </script>
 </body>
 </html>
-
-
