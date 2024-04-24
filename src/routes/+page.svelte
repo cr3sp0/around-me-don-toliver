@@ -2,6 +2,7 @@
     import { onMount } from "svelte";
     import { onDestroy } from 'svelte';
     import { fade } from "svelte/transition";
+    export const prerender = true;
 
     let mobile = 25;
     let buttonVisible = true;
